@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/***responsive***/
+@media(max-width: 800px){
+    
+    #root{
+        width: 800px;
+    }
+
+    #navBar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    #selectMode{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
