@@ -6,7 +6,7 @@
 @media(max-width: 800px){
     
     #root{
-        width: 800px;
+        max-width: 800px;
     }
 
     #navBar{
